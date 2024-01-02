@@ -19,7 +19,7 @@ const checkAuth = () => {
     window.location.href.includes(r)
   );
 
-  if (!TOKEN) {
+  if (!TOKEN && !isPublicPage) {
     window.location.href = "/";
     return;
   } else {
