@@ -9,13 +9,17 @@ const checkAuth = () => {
     "forgot-password",
     "register",
     "documentation",
+    "/",
+    "about",
+    "overview",
+    "contact",
   ];
 
   const isPublicPage = PUBLIC_ROUTES.some((r) =>
     window.location.href.includes(r)
   );
 
-  if (!TOKEN && !isPublicPage) {
+  if (!TOKEN) {
     window.location.href = "/";
     return;
   } else {
