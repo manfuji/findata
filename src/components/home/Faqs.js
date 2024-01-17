@@ -4,35 +4,36 @@ const Faqs = () => {
   const faqs = [
     {
       id: 1,
-      question: "What's the best package?",
+      question: "How can I choose the best package for my needs?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Selecting the ideal package depends on your specific requirements and goals. Our team can assist you in finding the perfect solution tailored to your needs.",
     },
     {
       id: 2,
-      question: "What's the best package?",
+      question: "What features are included in each package?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Each package comes with a unique set of features. Explore our pricing page or contact our support team for detailed information on what each package offers.",
     },
     {
       id: 3,
-      question: "What's the best package?",
+      question: "Can I upgrade or downgrade my package?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Yes, you can easily upgrade or downgrade your package based on your changing needs. Visit your account settings or reach out to our support team for assistance.",
     },
     {
       id: 4,
-      question: "What's the best package?",
+      question: "Are there any discounts for long-term subscriptions?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Yes, we offer discounts for long-term subscriptions. Check our pricing page or contact our sales team to discuss available discounts for extended commitments.",
     },
     {
       id: 5,
-      question: "What's the best package?",
+      question: "What payment methods do you accept?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "We accept various payment methods, including credit cards and online transfers. Visit our billing section or contact our support team for detailed payment information.",
     },
   ];
+
   return (
     <div>
       <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">

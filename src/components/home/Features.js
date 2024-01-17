@@ -10,42 +10,46 @@ const Features = () => {
     {
       name: "Access to live data",
       description:
-        "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+        "Stay informed with real-time data updates. Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
       icon: CloudArrowUpIcon,
     },
     {
       name: "Valid and secure information",
       description:
-        "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+        "Ensure trust with valid and secure information. Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
       icon: LockClosedIcon,
     },
     {
       name: "Up to date data",
       description:
-        "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+        "Make decisions based on the latest information. Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
       icon: ArrowPathIcon,
     },
     {
       name: "Advanced security",
       description:
-        "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+        "Protect your data with advanced security measures. Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
       icon: FingerPrintIcon,
     },
   ];
+
   return (
-    <div>
-      <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
+    <div id="features">
+      <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-44 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <h2 className="text-base font-semibold leading-7 text-teal-600">
             Get easy access to data
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Lorem ipsum dolor sit, amet consectetur
+          <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Discover Our Global Financial Data Hub.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-            Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-            In mi viverra elit nunc.
+          <p className="mt-6 text-lg text-left leading-8 text-gray-600">
+            FINDATA BUREAU set out to become a single source world-class
+            corporate filings and financial data of global companies. We pride
+            ourselves with professional and proactive, state of the art
+            technology, exceptional Corporate Governance standards, good
+            knowledge of various financial institutions and local market, and
+            above all, a customer-centric Culture.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -53,7 +57,7 @@ const Features = () => {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-teal-600">
                     <feature.icon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"

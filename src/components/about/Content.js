@@ -13,36 +13,40 @@ const Content = () => {
           <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-800 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+                FINDATA BUREAU is a leading source for world-class corporate
+                filings and financial data from global companies. Our commitment
+                to professional excellence, state-of-the-art technology,
+                exceptional Corporate Governance standards, and customer-centric
+                culture sets us apart.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas.
+                Incorporated on September 25, 2020, under the companies Act,
+                2019 (Act 992), FINDATA BUREAU provides accurate, timely, and
+                transparent financial information. With over 20 years of
+                detailed company financial statements, we cover key aspects such
+                as contact information, incorporation date, previous company
+                names, auditors, shareholders, subsidiaries, business
+                description, financials, ratios, market prices, and more.
               </p>
             </div>
             <div>
               <p>
-                Erat pellentesque dictumst ligula porttitor risus eget et eget.
-                Ultricies tellus felis id dignissim eget. Est augue maecenas
-                risus nulla ultrices congue nunc tortor. Enim et nesciunt
-                doloremque nesciunt voluptate.
+                Customize your viewing and export reports into Microsoft Word,
+                Excel, or Adobe Acrobat Reader. Access more than 5,000 images of
+                company annual reports, benefit from on-site training, and get
+                dedicated customer support. Our platform ensures the integrity
+                of financial statements presented in "as-reported" form and
+                native currencies.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Join us to retrieve precisely the information you need, with
+                user-friendly features, IP authentication, and extensive support
+                services. FINDATA BUREAU is your go-to hub for comprehensive
+                financial data, empowering your research and decision-making.
               </p>
             </div>
           </div>
+
           <dl className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
             {stats.map((stat, statIdx) => (
               <div

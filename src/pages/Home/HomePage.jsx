@@ -34,7 +34,7 @@ export default function Example() {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Architecto esse, blanditiis cum accusamustae!
               </span>
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-teal-600">
                 <span className="absolute inset-0" aria-hidden="true" /> Read
                 our case study <span aria-hidden="true">&rarr;</span>
               </a>
@@ -55,7 +55,7 @@ export default function Example() {
 
         <Faqs />
         {/* CTA section */}
-        <CatSection />
+        {/* <CatSection /> */}
       </main>
       <Footer />
     </div>

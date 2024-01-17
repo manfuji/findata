@@ -1,5 +1,11 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  InformationCircleIcon,
+} from "@heroicons/react/24/outline";
 const ContactInformation = () => {
   return (
     <>
@@ -104,9 +110,10 @@ const ContactInformation = () => {
         </div>
         <h3 className="text-lg font-medium text-white">Contact information</h3>
         <p className="mt-6 max-w-3xl text-base text-teal-50">
-          Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-          massa dictumst amet. Sapien tortor lacus arcu.
+          Please refer to our Relationship Management Department for any
+          billing, shipping, ordering and product information inquiries.
         </p>
+
         <dl className="mt-8 space-y-6">
           <dt>
             <span className="sr-only">Phone number</span>
@@ -116,7 +123,7 @@ const ContactInformation = () => {
               className="h-6 w-6 flex-shrink-0 text-teal-200"
               aria-hidden="true"
             />
-            <span className="ml-3">+233 000 000 0000</span>
+            <span className="ml-3">+233(0)208098029 +233(0)559919595</span>
           </dd>
           <dt>
             <span className="sr-only">Email</span>
@@ -126,10 +133,24 @@ const ContactInformation = () => {
               className="h-6 w-6 flex-shrink-0 text-teal-200"
               aria-hidden="true"
             />
-            <span className="ml-3">support@findata.com</span>
+            <span className="ml-3">
+              customerrelations@findatabureau.com or
+              technicalsupport@ftserussell.com
+            </span>
+          </dd>
+          <dd className="flex text-base text-teal-50">
+            <InformationCircleIcon
+              className="h-6 w-6 flex-shrink-0 text-teal-200"
+              aria-hidden="true"
+            />
+            <h1 className="font-medium ml-2"> Availability</h1> <br />
+            <span className="ml-3">
+              Monday through Friday, 8:00am - 5:00p.m. GMT AFTER Hours Support -
+              Monday through Friday, 5:00 PM - 12:00a.m. GMT
+            </span>
           </dd>
         </dl>
-        <ul role="list" className="mt-8 flex space-x-12">
+        {/* <ul role="list" className="mt-8 flex space-x-12">
           <li>
             <a className="text-teal-200 hover:text-teal-100" href="#">
               <span className="sr-only">Facebook</span>
@@ -177,7 +198,7 @@ const ContactInformation = () => {
               </svg>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </>
   );

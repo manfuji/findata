@@ -24,9 +24,8 @@ export default function Contact() {
                 Get in touch
               </h1>
               <p className="mt-6 max-w-3xl text-xl text-stone-500">
-                Vel nunc non ut montes, viverra tempor. Proin lectus nibh
-                phasellus morbi non morbi. In elementum urna ut volutpat.
-                Sagittis et vel et fermentum amet consequat.
+                Please refer to our Relationship Management Department for any
+                billing, shipping, ordering and product information inquiries.
               </p>
             </div>
           </div>

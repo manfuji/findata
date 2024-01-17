@@ -44,7 +44,7 @@ const CtaSection = () => {
               <div className="mt-10 flex">
                 <a
                   href="#"
-                  className="text-sm font-semibold leading-6 text-indigo-400"
+                  className="text-sm font-semibold leading-6 text-teal-400"
                 >
                   See our job postings <span aria-hidden="true">&rarr;</span>
                 </a>

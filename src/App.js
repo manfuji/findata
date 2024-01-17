@@ -12,6 +12,10 @@ import initializeApp from "./app/init";
 import About from "./features/about/About";
 import Contact from "./features/contact/Contact";
 import Overview from "./features/overview/Overview";
+import Banks from "./pages/products/Banks";
+import InvestmentBanks from "./pages/products/Investments";
+import CreditUnion from "./pages/products/CreditUnion";
+import Fintech from "./pages/products/Fintech";
 
 // Importing pages
 const Layout = lazy(() => import("./containers/Layout"));
@@ -45,6 +49,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/overview" element={<Overview />} />
+          <Route path="/bank" element={<Banks />} />
+          <Route path="/investment" element={<InvestmentBanks />} />
+          <Route path="/creditunion" element={<CreditUnion />} />
+          <Route path="/fintech" element={<Fintech />} />
 
           {/* Place new routes over this */}
           <Route path="/app/*" element={<Layout />} />

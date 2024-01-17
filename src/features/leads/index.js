@@ -137,7 +137,7 @@ function Leads() {
                         <div className="ml-4 flex-shrink-0">
                           <a
                             href="/#"
-                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                            className="font-medium text-teal-600 hover:text-teal-500"
                           >
                             Download
                           </a>

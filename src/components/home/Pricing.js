@@ -3,16 +3,29 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 
 const tiers = [
   {
-    name: "Starter",
-    id: "tier-freelancer",
+    name: "Free",
+    id: "tier-Free",
+    href: "#",
+    priceMonthly: "Ghc0.00",
+    description: "The essentials to provide your best work for your projects.",
+    features: [
+      "Access to basic information about the content on the website",
+      "Download as PDF PNG",
+      "48-hour support response time",
+    ],
+    mostPopular: false,
+  },
+  {
+    name: "Single Account",
+    id: "tier-account",
     href: "#",
     priceMonthly: "Ghc24.00",
     description: "The essentials to provide your best work for your projects.",
     features: [
-      "5 Financial sectors",
-      "Up to 1,000 contents",
-      "Basic queries",
-      "48-hour support response time",
+      "A charge for the month (billed annually) in the first 12 months",
+      "Unlimited views to all financial statements",
+      "Up to 50 downloads as XLS, WORD and PDF",
+      "Relevant data: complete source of information",
     ],
     mostPopular: false,
   },
@@ -24,11 +37,10 @@ const tiers = [
     description:
       "A plan that scales with live data and accessibility to most of our features and mroe",
     features: [
-      "10 Financial sectors",
+      "All functions of the single account",
       "Up to 10,000 contents and services",
-      "Advanced Queries",
-      "24-hour support response time",
-      "Special demands",
+      "Single licenss",
+      "Access for 30 days",
     ],
     mostPopular: true,
   },
@@ -40,10 +52,10 @@ const tiers = [
     description:
       "Dedicated support and Provision and data availabilty on demand.",
     features: [
-      "Unlimited Financial sectors",
-      "Unlimited contents",
-      "Advanced Quesries",
-      "1-hour, dedicated support response time",
+      "Unlimited number of users",
+      "Full access for students and staff to the whole database",
+      "Unlimited downloads",
+      "IP-activated access",
       "Full accessibility to all services",
     ],
     mostPopular: false,
@@ -54,20 +66,22 @@ const Pricing = () => {
     return classes.filter(Boolean).join(" ");
   }
   return (
-    <div>
+    <div id="pricing">
       <div className="py-24 sm:pt-48">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+            <h2 className="text-base font-semibold leading-7 text-teal-600">
               Pricing
             </h2>
             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Pricing plans for teams of&nbsp;all&nbsp;sizes
+              Pricing plans for teams for all people.
             </p>
           </div>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
+            Pricing strategy is a comprehensive approach that businesses employ
+            to set the optimal price for their products or services, balancing
+            market dynamics, competitive positioning, and customer value to
+            maximize revenue and profitability.
           </p>
           <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {tiers.map((tier, tierIdx) => (
@@ -85,14 +99,14 @@ const Pricing = () => {
                     <h3
                       id={tier.id}
                       className={classNames(
-                        tier.mostPopular ? "text-indigo-600" : "text-gray-900",
+                        tier.mostPopular ? "text-teal-600" : "text-gray-900",
                         "text-lg font-semibold leading-8"
                       )}
                     >
                       {tier.name}
                     </h3>
                     {tier.mostPopular ? (
-                      <p className="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">
+                      <p className="rounded-full bg-teal-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-teal-600">
                         Most popular
                       </p>
                     ) : null}
@@ -115,7 +129,7 @@ const Pricing = () => {
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex gap-x-3">
                         <CheckIcon
-                          className="h-6 w-5 flex-none text-indigo-600"
+                          className="h-6 w-5 flex-none text-teal-600"
                           aria-hidden="true"
                         />
                         {feature}
@@ -128,9 +142,9 @@ const Pricing = () => {
                   aria-describedby={tier.id}
                   className={classNames(
                     tier.mostPopular
-                      ? "bg-indigo-600 text-white shadow-sm hover:bg-indigo-500"
-                      : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                    "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      ? "bg-teal-600 text-white shadow-sm hover:bg-teal-500"
+                      : "text-teal-600 ring-1 ring-inset ring-teal-200 hover:ring-teal-300",
+                    "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
                   )}
                 >
                   Buy plan

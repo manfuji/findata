@@ -29,9 +29,8 @@ const Offices = () => {
             Our offices
           </h2>
           <p className="mt-6 max-w-3xl text-lg text-stone-500">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames.
+            Please refer to our Relationship Management Department for any
+            billing, shipping, ordering and product information inquiries.
           </p>
           <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {offices.map((office) => (

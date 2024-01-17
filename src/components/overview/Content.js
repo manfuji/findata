@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-        <p className="text-base font-semibold leading-7 text-indigo-600">
+        <p className="text-base font-semibold leading-7 text-teal-600">
           General Information
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -31,7 +31,7 @@ const Content = () => {
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon
-                className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                className="mt-1 h-5 w-5 flex-none text-teal-600"
                 aria-hidden="true"
               />
               <span>
@@ -45,7 +45,7 @@ const Content = () => {
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon
-                className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                className="mt-1 h-5 w-5 flex-none text-teal-600"
                 aria-hidden="true"
               />
               <span>
@@ -58,7 +58,7 @@ const Content = () => {
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon
-                className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                className="mt-1 h-5 w-5 flex-none text-teal-600"
                 aria-hidden="true"
               />
               <span>
@@ -88,7 +88,7 @@ const Content = () => {
             Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis
             diam.
           </p>
-          <figure className="mt-10 border-l border-indigo-600 pl-9">
+          <figure className="mt-10 border-l border-teal-600 pl-9">
             <blockquote className="font-semibold text-gray-900">
               <p>
                 “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus
